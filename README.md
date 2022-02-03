@@ -5,3 +5,8 @@ This project is done as a part of CMPE230 class. It implements a QT UI applicati
 
 ### Build
 To build QT version 5.15 is needed. For configuration environment variable `MYCRYPTOCONVERT` should be set to a path of configuration file(wanted cryptocurrencies seperated by line).
+
+``` 
+qmake Cointracker.pro
+qmake make
+```
